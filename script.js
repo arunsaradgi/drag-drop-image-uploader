@@ -8,11 +8,11 @@ const gallery = document.querySelector('#gallery');
 
 browse.onclick = () => input.click();
 
-drop.ondragover = e => e.preventDefault();
+drop.ondragover = ((e) => e.preventDefault());
 
 drop.ondrop = e => {
+    // console.log(e)
     e.preventDefault();
-    console.log(e)
     handleUpload(e.dataTransfer.files[0])
 }
 
