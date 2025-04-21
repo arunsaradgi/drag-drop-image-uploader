@@ -1,6 +1,6 @@
-This project is a Drag-and-Drop Image Uploader built using HTML, CSS, and JavaScript. It allows users to upload images by either dragging and dropping them into a designated area or by browsing their local files. The uploaded images are displayed in a gallery and persist across page reloads using the browser's localStorage.
+**This project is a Drag-and-Drop Image Uploader built using HTML, CSS, and JavaScript. It allows users to upload images by either dragging and dropping them into a designated area or by browsing their local files. The uploaded images are displayed in a gallery and persist across page reloads using the browser's localStorage.**
 
-Key Features:
+**Key Features:**
 Drag-and-Drop Upload:
 
 Users can drag and drop an image file into the drop area to upload it.
@@ -57,3 +57,42 @@ SCREENSHOTS
 
 ![image](https://github.com/user-attachments/assets/e7dac6e5-009b-4de7-b0c7-d8c751486c5d)
 
+
+_**Steps to Run the Project**_
+
+Clone or Download the Project:
+
+Copy the project files to your local machine.
+Install a Live Server Extension:
+
+If you're using Visual Studio Code, install the Live Server extension from the Extensions Marketplace.
+Run the Project:
+
+Open the project folder in Visual Studio Code.
+Right-click on index.html and select "Open with Live Server".
+The project will open in your default browser, and you can interact with the drag-and-drop image uploader.
+
+_**Cloudinary Setup Steps**_
+Create a Cloudinary Account:
+
+Go to Cloudinary's website and sign up for a free account.
+Get Your Cloud Name:
+
+After signing up, go to the Dashboard.
+Copy your Cloud Name from the account details.
+Create an Upload Preset:
+
+Navigate to the Settings in your Cloudinary dashboard.
+Go to the Upload tab.
+Scroll down to the Upload Presets section.
+Click Add Upload Preset and:
+Set the preset name (e.g., unsigned_upload).
+Ensure the preset is unsigned.
+Save the preset.
+Update the Code:
+
+Replace the CLOUD_NAME and UPLOAD_PRESET constants in script.js with your Cloudinary details:
+Test the Setup:
+
+Drag and drop an image or use the file picker to upload an image.
+The image should upload to Cloudinary and display in the gallery.
