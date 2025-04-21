@@ -44,9 +44,16 @@ The image is uploaded to Cloudinary using a POST request with FormData.
 Displaying Images:
 
 After a successful upload, the image URL is added to localStorage and displayed in the gallery.
+
 On page load, the DOMContentLoaded event retrieves stored images from localStorage and displays them.
 Styling:
 
 The drop area and gallery are styled for a clean and modern look.
 Hover effects and transitions enhance the user experience.
 This project is ideal for learning about drag-and-drop APIs, working with external APIs (Cloudinary), and managing persistent data in the browser.
+
+
+SCREENSHOTS
+
+![image](https://github.com/user-attachments/assets/e7dac6e5-009b-4de7-b0c7-d8c751486c5d)
+
