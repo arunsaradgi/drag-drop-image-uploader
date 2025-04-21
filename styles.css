@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+#drop_area {
+    border: 2px solid black;
+    padding: 2rem;
+    margin: auto;
+    width: 40%;
+}
+
+#gallery{
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+#gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
